@@ -1,0 +1,90 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.container{
+	width: 90%;
+	height: 800px;
+	background-color: yellow;
+	margin-top: 25px;
+	text-align: center;
+	border-radius: 10px;
+	margin: solid 2px;
+}
+
+.cabecera{
+	width: 100%;
+	height: 50px;
+	background-color: orange;
+	text-align: center;
+	font-family: Arial Black;
+}
+
+.formacion{
+	width: 50%;
+	height: 200px;
+	background-color: orange;
+	border-radius: 10px;
+	font-family: ;
+}
+
+.experiencia{
+	width: 50%;
+	height: 180px;
+	background-color: orange;
+	border-radius: 10px;
+	margin-top: 10px;
+	font-family: Arial Black;
+}
+
+.habilidades{
+	width: 50%;
+	height: 180px;
+	background-color: orange;
+	border-radius: 10px;
+	margin-top: 10px;
+	font-family: Arial Black;
+}
+
+.pie{
+	width: 100%;
+	height: 80px;
+	background-color: orange;
+	margin-top: 10px;
+	font-family: Arial Black;
+}
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.container{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.cabecera{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.formacion{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.experiencia{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.habilidades{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.pie{
+		flex-direction: column;
+		width: 400px;
+	}
+}

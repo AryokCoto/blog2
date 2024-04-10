@@ -1,0 +1,71 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.container{
+	width: 50%;
+	height: 700px;
+	background-color: skyblue;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.foto{
+	width: 20%;
+	height: 140px;
+	background-color: yellow;
+	border-radius: 80%;
+	float: left;
+	margin-left: 5px;
+	box-shadow: 10px 5px 6px red;
+	background-image: url(../img/bb.jpg);
+	background-size: cover;
+}
+
+.datos{
+	width: 20%;
+	height: 100px;
+	background-color: skyblue;
+	margin-right: 50px;
+	font-family: Arial Black;
+	margin-top: 5px;
+}
+
+.contacto{
+	width: 60%;
+	height: 470px;
+	background-color: yellow;
+	border-radius: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+}
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.container{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.foto{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.datos{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.contacto{
+		flex-direction: column;
+		width: 400px;
+	}
+}
+
+
+
